@@ -9,7 +9,7 @@ class SignatureManager
      */
     private $secretFieldName;
 
-    public function __construct(string $secretFieldName)
+    public function __construct(string $secretFieldName = 'secret')
     {
         $this->secretFieldName = $secretFieldName;
     }
