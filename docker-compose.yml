@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  php_cli:
+    build: .docker/php
+    volumes:
+      - ./:/var/www/signature.dev
+    command: tail -f /dev/null

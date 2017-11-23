@@ -1,0 +1,23 @@
+{
+  "name": "bookie/signature",
+  "require-dev": {
+    "phpunit/phpunit": "^6.4"
+  },
+  "authors": [
+    {
+      "name": "Eugene Bober",
+      "email": "eugene.bober@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Bookie\\SignatureManager\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Bookie\\SignatureManager\\": "tests/"
+    }
+  }
+}
